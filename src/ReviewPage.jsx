@@ -46,6 +46,7 @@ const ReviewPage = () => {
                     ))
                 )}
             </div>
+            <div className="w-[50%] ">
             <form onSubmit={handleSubmit} className="mt-4">
                 <input
                     type="text"
@@ -54,19 +55,28 @@ const ReviewPage = () => {
                     placeholder="Your name"
                     className="w-full py-2 px-4 rounded border border-gray-300 mb-2"
                 />
+                 <input
+                    type="text"
+                    value={newName}
+                    onChange={handleNameChange}
+                    placeholder="Your email"
+                    className="w-full py-2 px-4 rounded border border-gray-300 mb-2"
+                />
                 <textarea
                     value={newReview}
                     onChange={handleReviewChange}
                     placeholder="Write your review..."
-                    className="w-full py-2 px-4 rounded border border-gray-300 mb-2"
+                    className="w-full py-16 px-4 rounded border border-gray-300  mb-2"
                 ></textarea>
-                <button
-                    type="submit"
-                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                >
-                    Submit Review
-                </button>
+               <button type="submit" className="border font-bold hover:bg-gray-700 rounded rounded-5 px-4 py-2 mt-4 inline-block py-2 px-4  hover:text-white
+          hover:shadow-md duration-300 ease-in-out  border-gray-700  bg-white">Submit Review</button>
+
+                    
+                   
+                    
+                
             </form>
+        </div>
         </div>
     );
 };

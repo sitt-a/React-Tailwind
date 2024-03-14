@@ -3,7 +3,7 @@ import Blog from './Blog'
 import ActiveSlider from "./ActiveSlider"
 import Support from "./Support"
 import Body from "./Body"
-import About from "./About"
+import About from "./components/About"
 import Platform from "./Platform"
 import ReviewPage from "./ReviewPage"
 export default function Home() {
@@ -23,7 +23,9 @@ export default function Home() {
             <Body />
 
             <ActiveSlider></ActiveSlider>
-            <ReviewPage />
+            <About></About>
+            
+            
 
         </div>
     )

@@ -22,13 +22,14 @@ const ProductCard = ({ product }) => {
                 />
                 <h2 className="text-lg font-semibold">{product.name}</h2>
                 <p className="text-gray-600">${product.price}</p> </Link>
-            <button
+            {/* <button
                 onClick={handleAddToCart}
-                className="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
+                className="mt-4 inline-block bg-yellow-800 hover:bg-white  hover:text-gray-800 hover:text-gray-800 text-white font-semibold py-2 px-4 rounded"
             >
                 Add to Cart
-            </button>
-
+            </button> */}
+<button onClick={handleAddToCart} className="border font-bold hover:bg-gray-700 rounded rounded-5 px-4 py-2 mt-4 inline-block py-2 px-4  hover:text-white
+          hover:shadow-md duration-300 ease-in-out  border-gray-700  bg-white">Add to cart</button>
 
 
         </div>
