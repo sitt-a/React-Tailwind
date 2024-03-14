@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react"
-import Blog from './Blog'
+
 import ActiveSlider from "./ActiveSlider"
-import Support from "./Support"
+
 import Body from "./Body"
 import About from "./components/About"
-import Platform from "./Platform"
-import ReviewPage from "./ReviewPage"
+
 export default function Home() {
     const handleClick = () => { setNote("bella") }
     const [note, setNote] = useState("start")
