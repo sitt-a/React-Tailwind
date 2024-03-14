@@ -11,7 +11,7 @@ const About = () => {
 
       <div className="flex items-center justify-center space-x-8">
         <div className="w-1/2 p-8">
-          <h2 className="text-2xl font-bold mb-4">About Me</h2>
+          <h2 className="text-2xl font-bold mb-4">About </h2>
           <p className="text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, risus quis
             iaculis tincidunt, justo tortor interdum metus, at consequat purus odio non odio.
@@ -23,7 +23,7 @@ const About = () => {
           <img
             className="w-full h-auto rounded-lg"
             src={b}
-            alt="About Me"
+            alt="About "
           />
         </div>
       </div>
@@ -33,11 +33,11 @@ const About = () => {
           <img
             className="w-full h-auto rounded-lg"
             src={ba}
-            alt="About Me"
+            alt="About "
           />
         </div>
         <div className="w-1/2 p-8">
-          <h2 className="text-2xl font-bold mb-4">About Me</h2>
+          <h2 className="text-2xl font-bold mb-4">About </h2>
           <p className="text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, risus quis
             iaculis tincidunt, justo tortor interdum metus, at consequat purus odio non odio.
